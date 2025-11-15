@@ -32,8 +32,24 @@ Pastikan Composer sudah terinstall di komputer Anda.
 composer install
 ```
 
+### 3. Setup Environment
+
 ```bash
-php artisan migrate
+cp .env.example .env
+php artisan key:generate
 ```
+
+### 4. Database Migration
+
+```bash
+php artisan migrate --seed
+```
+
+### 5. Run the Application
+
+```bash
+php artisan serve
+```
+
 
 
