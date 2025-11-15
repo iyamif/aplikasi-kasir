@@ -18,9 +18,12 @@ Fitur meliputi manajemen produk, stok, supplier, transaksi penjualan, customer, 
 
 ## 📦 Installation
 
-### 1. Clone Repository
+### 1. Clone Repositor
 
 ```bash
 git clone https://github.com/your-username/laravel-pos-api.git
 
 cd laravel-pos-api
+
+composer install
+cp .env.example .env
